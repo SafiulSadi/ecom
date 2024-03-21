@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  font-size: 5rem;
+  color: aquamarine;
+  margin: 10px 10px;
+}
+.welcome-msg{
+  width: 70%;
+  display: inline-block;
+  float:left;
+  font-size: 3.5rem;
+  color: aqua;
+}
+
+.image{
+  display: inline-block;
+  float: right;
+  background-color: darkslategrey;
+  width: auto;
+  height: auto;
+  color:aliceblue;
+
+}
+button{
+  border-radius: 15%;
+  border: 2px solid brown;
+  background-color: wheat ;
+  padding: 4px;
+  margin: 10px;
+}
+
+.logo{
+  visibility: hidden;
+  height:50px;
+  float: right;
+  display: inline-block;
+}
+.svglogo{
+  width: 180px;
+  background-color: black;
+  border-radius: 10%;
+  /* padding: 20px;
+  margin: 50px; */
+
+}
+.navbar{
+  margin: 0 2rem;
+  background-color: black;
+  border-radius: 30px;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 14px 20px;
+  
+}
+.navbar li a{
+  padding: 3px;
+  text-decoration: none;
+  color:aliceblue
+
+}
+.navbar li a:hover{
+  color: goldenrod;
+}
+.search{
+  float: right;
+  color:aliceblue;
+  padding: 12px 75px
+}
+.navbar input{
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 17px;
+  margin: 40px 40px;
+}
+.nav-items{
+  padding-top: 80px;
+  padding-left: 80px;
+}
+body{
+  background-color: black;
+}
+.fsize{
+  font-size: 20px;
+}
+h2{
+  font-size: 20px;
+}
+.header{
+  margin: 10px 20px;
+  
+}
+input{
+  border: 4px solid aquamarine;
+  padding: 5px;
+  margin: 5px;
+}
+button{
+  padding: 5px;
+  margin: auto 5px;
+  background-color: aquamarine;
+  color: purple;
+}
+label{
+  color: aquamarine
+}
+p{
+  color: aqua;
+  padding: 10px;
+  margin: 10px;
+}

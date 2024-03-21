@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Blog Show</title>
+
+ 
+</head>
+<body>
+  <h1>Blog Show</h1>
+  <%- include("partials/header") %>
+    <% console.log(blogs); %>
+    <% console.log("this is part of the blogs"+ blogs[0].blogtitle); %>
+
+    <% for( let i = 0; i < blogs.length; i++ ) { %>
+     <h1>
+       <%= blogs[i].blogtitle %>
+      </h1> 
+      <p>
+        <%= blogs[i].blogpost %>
+       </p> 
+    <% } %>
+
+    <h1>
+    </h1>
+ 
+  <h1>
+    <%= hi %>
+  </h1>
+
+  <p>
+    <%= post %>
+
+  </p>
+  
+</body>
+</html>
